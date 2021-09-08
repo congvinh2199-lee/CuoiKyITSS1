@@ -18,7 +18,7 @@ function Main() {
             <div >
                 Danh sach ban dau: <DisplayListName style={{display : 'inline-block'}}  listName={initListName}></DisplayListName>
             </div>
-            <div >Chu cc gi do tieng nhat</div>
+            <div >Danh sach sinh vien</div>
             <InputName style={{marginLeft:"20px"}} addToStudentList={addToStudentList}></InputName>
             <div>
                 Ten moi nhap: {inputedName}
