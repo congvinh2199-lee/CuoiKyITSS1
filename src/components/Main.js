@@ -16,15 +16,15 @@ function Main() {
     return (
         <div style={ {marginLeft: "100px", marginTop: "50px"}}>
             <div >
-                Danh sach ban dau: <DisplayListName style={{display : 'inline-block'}}  listName={initListName}></DisplayListName>
+                リスト: <DisplayListName style={{display : 'inline-block'}}  listName={initListName}></DisplayListName>
             </div>
-            <div >Danh sach sinh vien</div>
+            <div >リスト</div>
             <InputName style={{marginLeft:"20px"}} addToStudentList={addToStudentList}></InputName>
             <div>
-                Ten moi nhap: {inputedName}
+                入力: {inputedName}
             </div>
             <div style={{display : 'inline-block'}}>
-                Danh sach moi: <DisplayListName listName= {studentList}></DisplayListName>
+                新しいリスト: <DisplayListName listName= {studentList}></DisplayListName>
             </div>
         </div>
     )
